@@ -3,15 +3,13 @@ Header background - #FFDBAA
 button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
-
-button {
-  background-color: #805215;
-  color: white;
-  border: 0;
+* {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header {
   background-color: #FFDBAA;
+  font-size:larger;
   text-align: left;
   color: #553100;
   font-weight: bold;
@@ -20,19 +18,53 @@ header {
 }
 
 nav {
+  display: inline-block;
   text-align: right;
   padding-right: 50px;
   padding-bottom: 25px;
+}
+
+button{
+  background-color: #805215;
+  color: white;
+  font-weight:500;
+  text-align: center;
+  font-size:medium;
+  border: 0;
+  height: 40px;
+  width:max-content;
 }
 
 body {
   background-color: #D4A76A;
 }
 
+main {
+  display: inline-flex;
+  padding: 5%;
+  padding-inline: 2%;
+}
+
 section {
   background-color: white;
+  display:block;
+}
+
+.button {
+  background-color: #805215;
+  color: white;
+  font-weight:500;
+  text-align: center;
+  font-size:medium;
+  border: 0;
+  height: 40px;
+  width:max-content;
 }
 
 footer {
   background-color: white;
+}
+
+h2 {
+  text-align:center;
 }
