@@ -3,7 +3,7 @@ Header background - #FFDBAA
 button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
-* {
+html {
   font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -36,18 +36,20 @@ button{
 }
 
 body {
+  margin: 0;
   background-color: #D4A76A;
 }
 
 main {
-  display: inline-flex;
+  display: flex;
   padding: 5%;
   padding-inline: 2%;
 }
 
 section {
   background-color: white;
-  display:block;
+  padding: 10px;
+  margin: 10px;
 }
 
 .button {
